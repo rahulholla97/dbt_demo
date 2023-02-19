@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: mydb
+    description: ' This is a TTM trial run'
+    database: mydb
+    schema: public
+    tables:
+      - name: mydb

@@ -11,9 +11,9 @@
 
 with source_data as (
 
-    select * where EMP salary > 10000
-    -- union all
-    -- select null as id
+    select 1 as id
+    union all
+    select null as id
 
 )
 
